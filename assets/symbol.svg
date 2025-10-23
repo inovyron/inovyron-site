@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <style>
+      .bg{fill:#D4AF37}
+      .iv{fill:#0B1C2C}
+    </style>
+  </defs>
+  <circle cx="160" cy="160" r="150" class="bg"/>
+  <!-- Stylized IV monogram -->
+  <path class="iv" d="M110 85 h24 v150 h-24 z M186 235 l-52 -150 h26 l40 120 40 -120 h26 l-52 150 z"/>
+</svg>

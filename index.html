@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inovyron — Innovate. Win. Endure.</title>
+  <meta name="description" content="Inovyron helps organizations innovate, win, and endure with AI-driven strategy and execution." />
+  <link rel="icon" href="assets/symbol.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/symbol.svg" alt="Inovyron symbol" class="symbol" />
+        <div class="wordmark">INOVYRON</div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Solutions</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Innovate. <span class="gold">Win.</span> Endure.</h1>
+      <p>We partner with ambitious teams to turn intelligence into outcomes — combining strategy, AI, and execution.</p>
+      <div class="ctas">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="#services">Explore solutions</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container two-col">
+      <div>
+        <h2>About Inovyron</h2>
+        <p>Inovyron is a consulting and technology partner built on four pillars: innovation, victory, customer success, and endurance. We deliver responsible, scalable solutions that move the needle — from AI platforms to data strategy to change enablement.</p>
+      </div>
+      <div class="card">
+        <ul>
+          <li>Enterprise AI & SaaS Enablement</li>
+          <li>Strategy & Transformation</li>
+          <li>Data & Platform Engineering</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section alt">
+    <div class="container cards">
+      <div class="svc">
+        <h3>Consulting</h3>
+        <p>Strategy, operating models, and measurable transformation programs.</p>
+      </div>
+      <div class="svc">
+        <h3>AI + Platforms</h3>
+        <p>Responsible AI, LLM apps, data foundations, and automation.</p>
+      </div>
+      <div class="svc">
+        <h3>Delivery</h3>
+        <p>Design, build, and operate — focused on outcomes and reliability.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email us at <a href="mailto:contact@inovyron.com" class="gold">contact@inovyron.com</a></p>
+      <p class="fineprint">Prefer a call? Add a note in your email and we’ll schedule a time.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <img src="assets/symbol.svg" alt="Inovyron symbol" class="symbol small" />
+        <div class="wordmark small">INOVYRON</div>
+      </div>
+      <div class="tagline">AI. Elevated Results.</div>
+      <div class="copy">© {year} Inovyron. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.copy').forEach(el => {
+      el.innerHTML = el.innerHTML.replace('{year}', new Date().getFullYear());
+    });
+  </script>
+</body>
+</html>

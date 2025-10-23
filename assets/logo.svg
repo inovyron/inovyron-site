@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200">
+  <defs>
+    <style>
+      .gold{fill:#D4AF37}
+      .navy{fill:#0B1C2C}
+    </style>
+  </defs>
+  <g transform="translate(0,0)">
+    <circle cx="90" cy="100" r="80" class="gold"/>
+    <path class="navy" d="M60 30 h18 v140 h-18 z M120 170 l-40 -140 h20 l32 112 32 -112 h20 l-40 140 z"/>
+    <text x="190" y="110" class="navy" font-family="Inter, Arial, Helvetica, sans-serif" font-weight="800" font-size="56" letter-spacing="8">INOVYRON</text>
+    <text x="190" y="150" class="gold" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" letter-spacing="5">INNOVATE. WIN. ENDURE.</text>
+  </g>
+</svg>
